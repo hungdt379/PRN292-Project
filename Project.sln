@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignRoom", "AssignRoom\AssignRoom.csproj", "{7880B737-9330-47EA-A883-F0CEF9770140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewRoomAssign", "ViewRoomAssign\ViewRoomAssign.csproj", "{4BF7B2B2-AB4C-40BF-B0FF-D41BF9AAC42F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7880B737-9330-47EA-A883-F0CEF9770140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7880B737-9330-47EA-A883-F0CEF9770140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7880B737-9330-47EA-A883-F0CEF9770140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7880B737-9330-47EA-A883-F0CEF9770140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF7B2B2-AB4C-40BF-B0FF-D41BF9AAC42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF7B2B2-AB4C-40BF-B0FF-D41BF9AAC42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF7B2B2-AB4C-40BF-B0FF-D41BF9AAC42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF7B2B2-AB4C-40BF-B0FF-D41BF9AAC42F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7807C772-C30A-4892-B07C-426D74F0712A}
+	EndGlobalSection
+EndGlobal

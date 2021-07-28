@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7880B737-9330-47EA-A883-F0CEF9770140}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AssignRoom</RootNamespace>
+    <AssemblyName>AssignRoom</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssignRoomToClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignRoomToClass.Designer.cs">
+      <DependentUpon>AssignRoomToClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeDateRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeDateRoom.Designer.cs">
+      <DependentUpon>ChangeDateRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Const.cs" />
+    <Compile Include="DataAccess\DAO.cs" />
+    <Compile Include="DateTimeExtensions.cs" />
+    <Compile Include="DetailRoomAssign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailRoomAssign.Designer.cs">
+      <DependentUpon>DetailRoomAssign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerShedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LecturerShedule.Designer.cs">
+      <DependentUpon>LecturerShedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\ClassObj.cs" />
+    <Compile Include="Logic\Lecturer.cs" />
+    <Compile Include="Logic\Matrix.cs" />
+    <Compile Include="Logic\Room.cs" />
+    <Compile Include="Logic\RoomAssign.cs" />
+    <Compile Include="Logic\Slot.cs" />
+    <Compile Include="Logic\User.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListRoom.Designer.cs">
+      <DependentUpon>ListRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AssignRoomToClass.resx">
+      <DependentUpon>AssignRoomToClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeDateRoom.resx">
+      <DependentUpon>ChangeDateRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailRoomAssign.resx">
+      <DependentUpon>DetailRoomAssign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LecturerShedule.resx">
+      <DependentUpon>LecturerShedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListRoom.resx">
+      <DependentUpon>ListRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\dangt\source\repos\Project\AssignRoom\bin\Debug\AssignRoom.exe
+C:\Users\dangt\source\repos\Project\AssignRoom\bin\Debug\AssignRoom.pdb
+C:\Users\dangt\source\repos\Project\AssignRoom\obj\Debug\AssignRoom.csprojAssemblyReference.cache
+C:\Users\dangt\source\repos\Project\AssignRoom\obj\Debug\AssignRoom.ListRoom.resources
+C:\Users\dangt\source\repos\Project\AssignRoom\obj\Debug\AssignRoom.Properties.Resources.resources
+C:\Users\dangt\source\repos\Project\AssignRoom\obj\Debug\AssignRoom.csproj.GenerateResource.cache
+C:\Users\dangt\source\repos\Project\AssignRoom\obj\Debug\AssignRoom.csproj.CoreCompileInputs.cache
+C:\Users\dangt\source\repos\Project\AssignRoom\obj\Debug\AssignRoom.exe
+C:\Users\dangt\source\repos\Project\AssignRoom\obj\Debug\AssignRoom.pdb
+C:\Users\dangt\source\repos\Project\AssignRoom\obj\Debug\AssignRoom.Login.resources
+C:\Users\dangt\source\repos\Project\AssignRoom\bin\Debug\AssignRoom.exe.config
+C:\Users\dangt\source\repos\Project\AssignRoom\obj\Debug\AssignRoom.AssignRoomToClass.resources
+C:\Users\dangt\source\repos\Project\AssignRoom\obj\Debug\AssignRoom.DetailRoomAssign.resources
+C:\Users\dangt\source\repos\Project\AssignRoom\obj\Debug\AssignRoom.LecturerShedule.resources
+C:\Users\dangt\source\repos\Project\AssignRoom\obj\Debug\AssignRoom.ChangeDateRoom.resources

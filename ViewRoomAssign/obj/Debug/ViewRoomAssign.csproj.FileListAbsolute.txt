@@ -1,0 +1,7 @@
+C:\Users\dangt\source\repos\Project\ViewRoomAssign\bin\ViewRoomAssign.dll.config
+C:\Users\dangt\source\repos\Project\ViewRoomAssign\bin\ViewRoomAssign.dll
+C:\Users\dangt\source\repos\Project\ViewRoomAssign\bin\ViewRoomAssign.pdb
+C:\Users\dangt\source\repos\Project\ViewRoomAssign\obj\Debug\ViewRoomAssign.csprojAssemblyReference.cache
+C:\Users\dangt\source\repos\Project\ViewRoomAssign\obj\Debug\ViewRoomAssign.csproj.CoreCompileInputs.cache
+C:\Users\dangt\source\repos\Project\ViewRoomAssign\obj\Debug\ViewRoomAssign.dll
+C:\Users\dangt\source\repos\Project\ViewRoomAssign\obj\Debug\ViewRoomAssign.pdb
